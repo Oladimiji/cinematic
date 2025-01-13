@@ -151,6 +151,10 @@ body{
     font-weight: bold;
 }
 
+.movie-list-title{
+    color: white;
+}
+
 .movie-list-container{
    padding: 0 20px;
    position: relative;

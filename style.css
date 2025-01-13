@@ -494,6 +494,7 @@ input[type="radio"]{
     }
     .ready{
         font-size: 15px;
+        
     }
     .footer .row {
         display: flex;
@@ -518,8 +519,9 @@ input[type="radio"]{
     cursor: pointer;
     position: relative;
    }
-    ready{
+    .ready{
         margin-left: 10%;
+        
     }
     .email-signup input{
         margin-left: 10%;

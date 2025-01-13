@@ -523,6 +523,8 @@ input[type="radio"]{
     }
     .email-signup input{
         margin-left: 10%;
+        width: 50%;
+
     }
    .footer .language-btn {
     color: #fff;

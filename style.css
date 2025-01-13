@@ -451,6 +451,8 @@ input[type="radio"]{
 }
 
 
+
+
 /*-----Media Queries-----*/
 
 @media only screen and (max-width: 940px){
@@ -458,8 +460,6 @@ input[type="radio"]{
         display: none;
     }
 }
-
-
 
 @media only screen and (max-width: 376px){
     .featured-desc {
@@ -483,6 +483,9 @@ input[type="radio"]{
     .freq{
         font-size: 10px;
     }
+    .movie-list-title{
+    font-size: 15px;
+    }
     .accordion{
         margin-left: -20px;
     }
@@ -498,6 +501,40 @@ input[type="radio"]{
         padding: 10px 0;
         flex-direction: column;
     }
+    .footer .row {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 10px;
+        flex-direction: column;
+    }
+    .accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+   }
+    ready{
+        margin-left: 10%;
+    }
+    .email-signup input{
+        margin-left: 10%;
+    }
+   .footer .language-btn {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+   }
+    .copyright-txt {
+    font-size: 14px;
+    margin: 10px;
+  }
+   
 }
 
 
@@ -523,6 +560,39 @@ input[type="radio"]{
         padding: 10px 0;
         flex-direction: column;
     }
+    .footer .row {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 10px;
+        flex-direction: column;
+    }
+    .accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+   }
+    ready{
+        margin-left: 10%;
+    }
+    .email-signup input{
+        margin-left: 10%;
+    }
+    .footer .language-btn {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+   }
+    .copyright-txt {
+    font-size: 14px;
+    margin: 10px;
+  }
 }
 
 
@@ -547,7 +617,34 @@ input[type="radio"]{
     .footer .row {
         display: flex;
         align-items: flex-start;
-        padding: 10px 0;
+        padding: 10px 10px;
         flex-direction: column;
     }
+    .accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+   }
+    ready{
+        margin-left: 10%;
+    }
+    .email-signup input{
+        margin-left: 10%;
+    }
+    .footer .language-btn {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+   }
+    .copyright-txt {
+    font-size: 14px;
+    margin: 10px;
+  }
 }
